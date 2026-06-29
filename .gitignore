@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Rust build artifacts
+target/
+
+# Node / Bun
+node_modules/
+dist/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tauri packaging artifacts
+*.app
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
+
+# Local env files
+.env
+.env.local
+
+# Python
+.venv/
+.uv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / analysis outputs
+.ipynb_checkpoints/
